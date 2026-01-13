@@ -9,14 +9,14 @@
         {
             "title": "Slap Battle",
             "description": "Chaotic fun where you slap your way to victory. Use unique gloves and abilities to dominate the arena.",
-            "image": "images/slap-battle/1.png",
+            "image": "images/slap-battle/6.png",
             "link": "https://www.roblox.com/games/130895860161001/Slap-Battle",
             "cta": "Play Now"
         },
         {
             "title": "Skywar",
             "description": "Battle to steal and conquer in the skies. Strategic combat and high-flying action await.",
-            "image": "images/skywar/1.webp",
+            "image": "images/skywar/5.webp",
             "link": "https://www.roblox.com/games/108866430306705/Skywar-Battle-to-Steal",
             "cta": "Play Now"
         }
@@ -82,6 +82,21 @@
             "name": "Reddit",
             "icon": "fab fa-reddit-alien",
             "link": "https://www.reddit.com/user/QuantumRealmsStudio"
+        },
+        {
+            "name": "Itch.io",
+            "icon": "fas fa-store",
+            "link": "https://www.itch.io/quantumrealmsstudio"
+        },
+        {
+            "name": "Threads",
+            "icon": "fas fa-hashtag",
+            "link": "https://www.roblox.com/games/108866430306705/Skywar"
+        },
+        {
+            "name": "GitHub",
+            "icon": "fab fa-github",
+            "link": "https://github.com/QuantumRealmsStudio"
         }
     ]
 }
