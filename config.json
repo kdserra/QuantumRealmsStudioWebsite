@@ -1,0 +1,87 @@
+{
+    "hero": {
+        "title": "Quantum Realms Studio",
+        "tagline": "Forging unexpected worlds, one block at a time.",
+        "cta_text": "Explore Games",
+        "cta_link": "#games"
+    },
+    "games": [
+        {
+            "title": "Slap Battle",
+            "description": "Chaotic fun where you slap your way to victory. Use unique gloves and abilities to dominate the arena.",
+            "image": "images/slap-battle/1.png",
+            "link": "https://www.roblox.com/games/130895860161001/Slap-Battle",
+            "cta": "Play Now"
+        },
+        {
+            "title": "Skywar",
+            "description": "Battle to steal and conquer in the skies. Strategic combat and high-flying action await.",
+            "image": "images/skywar/1.webp",
+            "link": "https://www.roblox.com/games/108866430306705/Skywar-Battle-to-Steal",
+            "cta": "Play Now"
+        }
+    ],
+    "socials": [
+        {
+            "name": "Discord",
+            "icon": "fab fa-discord",
+            "link": "https://discord.gg/QHDmSyePf7"
+        },
+        {
+            "name": "Email",
+            "icon": "fas fa-envelope",
+            "type": "copy",
+            "value": "contact@example.com"
+        },
+        {
+            "name": "Roblox Group",
+            "icon": "fas fa-cube",
+            "link": "https://www.roblox.com/communities/656199252/Quantum-Realms-Studio"
+        },
+        {
+            "name": "YouTube",
+            "icon": "fab fa-youtube",
+            "link": "https://www.youtube.com/@QuantumRealmsStudio"
+        },
+        {
+            "name": "Twitch",
+            "icon": "fab fa-twitch",
+            "link": "https://www.twitch.tv/quantumrealmsstudio"
+        },
+        {
+            "name": "Twitter / X",
+            "icon": "fab fa-twitter",
+            "link": "https://x.com/QuantumRealmsSt"
+        },
+        {
+            "name": "Bluesky",
+            "icon": "fas fa-cloud",
+            "link": "https://bsky.app/profile/example.bsky.social"
+        },
+        {
+            "name": "Kick",
+            "icon": "fas fa-video",
+            "link": "https://kick.com/example"
+        },
+        {
+            "name": "TikTok",
+            "icon": "fab fa-tiktok",
+            "link": "https://www.tiktok.com/@example"
+        },
+        {
+            "name": "Instagram",
+            "icon": "fab fa-instagram",
+            "link": "https://www.instagram.com/example"
+        },
+        {
+            "name": "Facebook",
+            "icon": "fab fa-facebook",
+            "link": "https://www.facebook.com/example"
+        },
+        {
+            "name": "Reddit",
+            "icon": "fab fa-reddit-alien",
+            "link": "https://www.reddit.com/user/QuantumRealmsStudio"
+        }
+    ]
+}

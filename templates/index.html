@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ hero.title }}</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="hero-content">
+            <h1 class="logo-text">{{ hero.title }}</h1>
+            <p class="tagline">{{ hero.tagline }}</p>
+            <a href="{{ hero.cta_link }}" class="cta-button">{{ hero.cta_text }}</a>
+        </div>
+    </header>
+
+    <!-- Games Section -->
+    <section id="games">
+        <h2 class="section-title">Our Games</h2>
+        <div class="games-grid">
+            {% for game in games %}
+            <a href="{{ game.link }}" target="_blank" class="game-card">
+                <img src="{{ url_for('static', filename=game.image) }}" alt="{{ game.title }}" class="game-image">
+                <div class="game-info">
+                    <h3 class="game-title">{{ game.title }}</h3>
+                    <p class="game-desc">{{ game.description }}</p>
+                    <span class="play-link">{{ game.cta }} <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Socials Section -->
+    <section id="community">
+        <h2 class="section-title">Join the Community</h2>
+        <div class="socials-grid">
+            {% for social in socials %}
+            {% if social.type == 'copy' %}
+            <div class="social-card" onclick="copyEmail(this)" style="cursor: pointer;">
+                <i class="{{ social.icon }} social-icon"></i>
+                <span class="social-name">{{ social.name }}</span>
+                <input type="text" value="{{ social.value }}" class="email-value" style="display: none;">
+            </div>
+            {% else %}
+            <a href="{{ social.link }}" target="_blank" class="social-card">
+                <i class="{{ social.icon }} social-icon"></i>
+                <span class="social-name">{{ social.name }}</span>
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <script>
+            function copyEmail(element) {
+                var emailInput = element.querySelector('.email-value');
+                var email = emailInput.value;
+                navigator.clipboard.writeText(email).then(function () {
+                    var textElement = element.querySelector('.social-name');
+                    var originalText = textElement.innerText;
+                    textElement.innerText = "Copied!";
+                    setTimeout(function () {
+                        textElement.innerText = originalText;
+                    }, 2000);
+                }, function (err) {
+                    console.error('Could not copy text: ', err);
+                });
+            }
+        </script>
+    </section>
+
+    <footer>
+        <p>&copy; 2023-2026 {{ hero.title }}. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
