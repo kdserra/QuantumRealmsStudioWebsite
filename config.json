@@ -9,14 +9,14 @@
     "games": [
         {
             "title": "Slap Battle",
-            "description": "Chaotic fun where you slap your way to victory. Use unique gloves and abilities to dominate the arena.",
+            "description": "Chaotic fun where you slap your way to victory.  Slap players off the map, upgrade to get stronger, and become the ultimate slap champion!",
             "image": "images/slap-battle/6.png",
             "link": "https://www.roblox.com/games/130895860161001/Slap-Battle",
             "cta": "Play Now"
         },
         {
             "title": "Skywar",
-            "description": "Battle to steal and conquer in the skies. Strategic combat and high-flying action await.",
+            "description": "Battle to steal, defend, and dominate the skies.  Upgrade to get stronger, and climb the leaderboard to become the strongest thief!",
             "image": "images/skywar/5.webp",
             "link": "https://www.roblox.com/games/108866430306705/Skywar-Battle-to-Steal",
             "cta": "Play Now"
@@ -87,17 +87,17 @@
         {
             "name": "Itch.io",
             "icon": "fas fa-store",
-            "link": "https://www.itch.io/quantumrealmsstudio"
+            "link": "https://www.itch.io/example"
         },
         {
             "name": "Threads",
-            "icon": "fas fa-hashtag",
-            "link": "https://www.roblox.com/games/108866430306705/Skywar"
+            "icon": "fas fa-at",
+            "link": "https://www.threads.com/@example"
         },
         {
             "name": "GitHub",
             "icon": "fab fa-github",
-            "link": "https://github.com/QuantumRealmsStudio"
+            "link": "https://github.com/example"
         }
     ]
 }
