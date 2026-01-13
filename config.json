@@ -5,6 +5,7 @@
         "cta_text": "Explore Games",
         "cta_link": "#games"
     },
+    "favicon": "images/favicon.webp",
     "games": [
         {
             "title": "Slap Battle",
