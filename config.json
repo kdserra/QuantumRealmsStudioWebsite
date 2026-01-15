@@ -32,7 +32,7 @@
             "name": "Email",
             "icon": "fas fa-envelope",
             "type": "copy",
-            "value": "contact@example.com"
+            "value": "quantumrealmsstudio@gmail.com"
         },
         {
             "name": "Roblox Group",
@@ -57,48 +57,22 @@
         {
             "name": "Bluesky",
             "icon": "fas fa-cloud",
-            "link": "https://bsky.app/profile/example.bsky.social"
+            "link": "https://bsky.app/profile/quantumrealmsstdio.bsky.social"
         },
         {
             "name": "Kick",
             "icon": "fas fa-video",
-            "link": "https://kick.com/example"
+            "link": "https://kick.com/quantumrealmsstudio"
         },
         {
             "name": "TikTok",
             "icon": "fab fa-tiktok",
-            "link": "https://www.tiktok.com/@example"
-        },
-        {
-            "name": "Reddit",
-            "icon": "fab fa-reddit-alien",
-            "link": "https://www.reddit.com/user/QuantumRealmsStudio"
+            "link": "https://www.tiktok.com/@quantumrealmsstudio"
         },
         {
             "name": "Instagram",
             "icon": "fab fa-instagram",
-            "link": "https://www.instagram.com/example"
-        },
-        {
-            "name": "Threads",
-            "icon": "fas fa-at",
-            "link": "https://www.threads.com/@example"
-        },
-        {
-            "name": "Slap Battle",
-            "icon": "fas fa-hand-fist",
-            "link": "https://www.roblox.com/games/130895860161001/Slap-Battle"
-        },
-        {
-            "name": "Skywar",
-            "icon": "fas fa-cloud-bolt",
-            "link": "https://www.roblox.com/games/108866430306705/Skywar"
-        },
-        {
-            "name": "Website",
-            "icon": "fas fa-globe",
-            "type": "copy",
-            "link": "https://www.quantumrealmsstudio.com"
+            "link": "https://www.instagram.com/quantumrealmsstudioofficial"
         }
     ]
 }
