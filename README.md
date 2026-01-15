@@ -22,7 +22,3 @@ py -3.10 app.py
     python app.py
     ```
 4.  **View:** Open your browser and go to `http://127.0.0.1:5000`.
-
-## Customization
-- **Images:** Add more images to `static/images` and reference them in `index.html`.
-- **Styles:** Edit `static/css/style.css` to change colors or animations.
