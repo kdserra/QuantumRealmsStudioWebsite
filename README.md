@@ -2,23 +2,9 @@
 
 This is the official website for Quantum Realms Studio, built with Flask.
 
-## Project Structure
-
-```
-/
-├── app.py              # Main Flask application
-├── requirements.txt    # Python dependencies
-├── static/
-│   ├── css/
-│   │   └── style.css   # Main stylesheet
-│   └── images/
-│       ├── skywar/     # Skywar assets
-│       └── slap-battle/# Slap Battle assets
-└── templates/
-    └── index.html      # Main landing page
-```
-
 ## Run app
+
+- Requires Python 3.10
 
 ```
 py -3.10 app.py
