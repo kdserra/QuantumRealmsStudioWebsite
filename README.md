@@ -18,6 +18,12 @@ This is the official website for Quantum Realms Studio, built with Flask.
     └── index.html      # Main landing page
 ```
 
+## Run app
+
+```
+py -3.10 app.py
+```
+
 ## Local Development
 
 1.  **Install Python:** Ensure you have Python installed.
