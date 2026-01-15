@@ -70,24 +70,14 @@
             "link": "https://www.tiktok.com/@example"
         },
         {
-            "name": "Instagram",
-            "icon": "fab fa-instagram",
-            "link": "https://www.instagram.com/example"
-        },
-        {
-            "name": "Facebook",
-            "icon": "fab fa-facebook",
-            "link": "https://www.facebook.com/example"
-        },
-        {
             "name": "Reddit",
             "icon": "fab fa-reddit-alien",
             "link": "https://www.reddit.com/user/QuantumRealmsStudio"
         },
         {
-            "name": "Itch.io",
-            "icon": "fas fa-store",
-            "link": "https://www.itch.io/example"
+            "name": "Instagram",
+            "icon": "fab fa-instagram",
+            "link": "https://www.instagram.com/example"
         },
         {
             "name": "Threads",
@@ -95,9 +85,20 @@
             "link": "https://www.threads.com/@example"
         },
         {
-            "name": "GitHub",
-            "icon": "fab fa-github",
-            "link": "https://github.com/example"
+            "name": "Slap Battle",
+            "icon": "fas fa-hand-fist",
+            "link": "https://www.roblox.com/games/130895860161001/Slap-Battle"
+        },
+        {
+            "name": "Skywar",
+            "icon": "fas fa-cloud-bolt",
+            "link": "https://www.roblox.com/games/108866430306705/Skywar"
+        },
+        {
+            "name": "Website",
+            "icon": "fas fa-globe",
+            "type": "copy",
+            "link": "https://www.quantumrealmsstudio.com"
         }
     ]
 }
